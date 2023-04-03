@@ -6,6 +6,7 @@ const OPEN_WEATHER_API_KEY = "96179e0143a6a7f7075bec3025df300f";
 const IMDB_API_KEY = "k_viybmuj6";
 const app = express()
 // const city = require('./index.js')
+let city = "Denver"
 
 app.use(cors())
 
